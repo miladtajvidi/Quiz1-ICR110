@@ -6,17 +6,17 @@
 
 
 Var sum =0;
-Var counter=0;
-Var oddNo=0;
+Var counter=1;
+Var evenNo=0;
 
 
 
 # Process (Loops and calculations)
 
-if(counter < 50)
+if(counter < 51)
 {
-oddNo=(2*counter)+1;
-sum+=oddNo;
+evenNo=(2*counter);
+sum+=evenNo;
 counter+=1;
 }
 
