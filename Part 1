@@ -1,1 +1,29 @@
-#Part a : Adding all odd numbers from 1 to 100
+#Part a : Adding all odd numbers from 1 to 100 (1,3,5,...,99)
+
+
+#Initializing
+
+
+Var sum =0;
+Var counter=0;
+Var oddNo=0;
+
+
+
+# Process (Loops and calculations)
+
+if(counter < 50)
+{
+oddNo=(2*counter)+1;
+sum+=oddNo;
+counter+=1;
+}
+
+else
+{
+break;
+}
+
+
+# Output (showing the summation)
+
