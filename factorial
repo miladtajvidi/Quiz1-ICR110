@@ -1,9 +1,8 @@
-sum =1; 
-counter = no ;
+Mul =1; 
 
 if (no > 0)
 {
-sum *= no;
+Mul *= no;
 no -= 1; 
 }
 else 
