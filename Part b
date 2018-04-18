@@ -1,1 +1,32 @@
 # Part b : Adding all the even numbers from 1 to 100 (2, 4, 6, ..., 100)
+
+
+
+#Initializing
+
+
+Var sum =0;
+Var counter=0;
+Var oddNo=0;
+
+
+
+# Process (Loops and calculations)
+
+if(counter < 50)
+{
+oddNo=(2*counter)+1;
+sum+=oddNo;
+counter+=1;
+}
+
+else
+{
+break;
+}
+
+
+# Output (showing the summation)
+
+
+Print sum ;
