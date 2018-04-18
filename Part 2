@@ -1,11 +1,12 @@
 # Adding all the numbers from 1 to 100 by Gauss' method (n(n+1)/2)
 
 
-
+# initializing (Which is not necessary in this case)
 var sum = 0;
 
-sum = (100 * 101)/2 ; 
 
+# Process ( Substituting 100 for n and calculating the value )
+sum = (100 * 101)/2 ; 
 
 
 Print sum ;
