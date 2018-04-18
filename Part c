@@ -1,3 +1,47 @@
 # Part c : Adding all the numbers between two given arbitrary numbers x and y
 
+#Initializing
 
+
+Var sum =0;
+Var counter=0;
+Var no1=0;
+Var no2=0;
+Var step=0;
+
+
+# Process (Loops and calculations)
+# first we check which given number is greater in value so we can input them into no1 and no2 variables properly.
+
+
+if ( (x < y) || (x == y) )
+{
+no1 = x;
+no2 = y;
+}
+
+else if ( x > y)
+{
+no1=y;
+no2=x;
+}
+
+step = no2 - no1 +1 ;
+
+
+if(counter < step)
+{
+sum += no1+ counter;
+counter+=1;
+}
+
+else
+{
+break;
+}
+
+
+# Output (showing the summation)
+
+
+Print sum ;
